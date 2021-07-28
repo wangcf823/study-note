@@ -1,0 +1,10 @@
+screen的安装
+yum -y install screen
+
+执行时间较长的升级脚本时需要创建screen会话：
+1、创建会话screen -S  wcf （zhangguoji为自定义名称）
+2、会话分离Ctrl+a d 
+3、会话查询screen -ls
+4、会话恢复screen -r 12865 （12865为第3步查询出来的会话id） 也就是登录会话,也可通过 sceen -r scp_apps 
+5、会话关闭Ctrl+a k
+6、登录会话之后，使用exit，将会terminate会话窗口
