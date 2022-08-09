@@ -1,0 +1,7 @@
+编辑sshd的配置文件，将下面几项参数开启并设置正确，不然会提示Error: Can't open display: 
+
+　　X11Forwarding yes
+　　X11DisplayOffset 10
+　　X11UseLocalhost yes
+  
+修改参数
